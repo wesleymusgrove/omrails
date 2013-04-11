@@ -1,28 +1,28 @@
 <div id="myCarousel" class="carousel slide">
   <div class="carousel-inner">
-    <div class="item">
+    <div class="item active progress progress-info progress-striped">
       <img src="../assets/img/examples/slide-01.jpg" alt="">
-      <div class="container">
+      <div class="container bar" style="width:100%">
         <div class="carousel-caption">
           <h1>Example headline.</h1>
           <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-          <a class="btn btn-large btn-primary" href="#">Sign up today</a>
+          <%= link_to "Sign Up Today!", new_user_registration_path, class: "btn btn-primary btn-large" %>
         </div>
       </div>
     </div>
-    <div class="item">
+    <div class="item progress progress-success progress-striped">
       <img src="../assets/img/examples/slide-02.jpg" alt="">
-      <div class="container">
+      <div class="container bar" style="width:100%">
         <div class="carousel-caption">
           <h1>Another example headline.</h1>
           <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-          <a class="btn btn-large btn-primary" href="#">Learn more</a>
+          <%= link_to "Learn More", about_path, class: "btn btn-primary btn-large" %>
         </div>
       </div>
     </div>
-    <div class="item active">
+    <div class="item progress progress-warning progress-striped">
       <img src="../assets/img/examples/slide-03.jpg" alt="">
-      <div class="container">
+      <div class="container bar" style="width:100%">
         <div class="carousel-caption">
           <h1>One more for good measure.</h1>
           <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
